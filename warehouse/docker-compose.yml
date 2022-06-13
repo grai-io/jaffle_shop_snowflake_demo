@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  db:
+    image: postgres:14.3-bullseye
+    container_name: grai-jaffle-test
+    restart: unless-stopped
+    ports:
+      - 5432:5432
+    environment:
+      - DATABASE_PASSWORD=docker
+      - DATABASE_USER=docker
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_USER=docker
