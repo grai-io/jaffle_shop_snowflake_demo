@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: data lineage check
-        uses: grai-io/grai-actions/dbt@master
+        uses: grai-io/grai-actions/postgres@master
         with:
           namespace: "default"
           workspace: "188bec99-3f88-4c65-8bf0-a6787564a985"
