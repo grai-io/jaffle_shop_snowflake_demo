@@ -8,7 +8,7 @@ jobs:
       - name: data lineage check
         uses: grai-io/grai-actions/postgres@master
         with:
-          namespace: "default"
+          namespace: "prod"
           workspace: "188bec99-3f88-4c65-8bf0-a6787564a985"
           client-host: "api.grai.io"
           api-key: ${{ secrets.GRAI_API_KEY }}
