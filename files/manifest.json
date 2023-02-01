@@ -47,7 +47,7 @@
         "pre-hook": []
       },
       "database": "GRAI_SAMPLE",
-      "schema": "public",
+      "schema": "PUBLIC",
       "fqn": [
         "jaffle_shop",
         "customers"
@@ -190,7 +190,7 @@
         "pre-hook": []
       },
       "database": "GRAI_SAMPLE",
-      "schema": "public",
+      "schema": "PUBLIC",
       "fqn": [
         "jaffle_shop",
         "staging",
@@ -273,7 +273,7 @@
         "pre-hook": []
       },
       "database": "GRAI_SAMPLE",
-      "schema": "public",
+      "schema": "PUBLIC",
       "fqn": [
         "jaffle_shop",
         "orders"
@@ -429,7 +429,7 @@
         "pre-hook": []
       },
       "database": "GRAI_SAMPLE",
-      "schema": "public",
+      "schema": "PUBLIC",
       "fqn": [
         "jaffle_shop",
         "staging",
@@ -511,7 +511,7 @@
         "pre-hook": []
       },
       "database": "GRAI_SAMPLE",
-      "schema": "public",
+      "schema": "PUBLIC",
       "fqn": [
         "jaffle_shop",
         "staging",
@@ -2373,7 +2373,7 @@
         "raw_customers"
       ],
       "database": "GRAI_SAMPLE",
-      "schema": "public",
+      "schema": "PUBLIC",
       "unique_id": "source.jaffle_shop.public.raw_customers",
       "package_name": "jaffle_shop",
       "root_path": "/Users/edwardlouth/dev/grai/jaffle_shop_snowflake_demo",
@@ -2433,7 +2433,7 @@
         "raw_orders"
       ],
       "database": "GRAI_SAMPLE",
-      "schema": "public",
+      "schema": "PUBLIC",
       "unique_id": "source.jaffle_shop.public.raw_orders",
       "package_name": "jaffle_shop",
       "root_path": "/Users/edwardlouth/dev/grai/jaffle_shop_snowflake_demo",
@@ -2501,7 +2501,7 @@
         "raw_payments"
       ],
       "database": "GRAI_SAMPLE",
-      "schema": "public",
+      "schema": "PUBLIC",
       "unique_id": "source.jaffle_shop.public.raw_payments",
       "package_name": "jaffle_shop",
       "root_path": "/Users/edwardlouth/dev/grai/jaffle_shop_snowflake_demo",
